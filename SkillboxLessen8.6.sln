@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillboxLessen8.6", "SkillboxLessen8.6\SkillboxLessen8.6.csproj", "{932FC746-7A1A-4644-940A-90C70241DD8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{932FC746-7A1A-4644-940A-90C70241DD8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{932FC746-7A1A-4644-940A-90C70241DD8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{932FC746-7A1A-4644-940A-90C70241DD8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{932FC746-7A1A-4644-940A-90C70241DD8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A89B653-402D-4515-A679-AA6EDEE7C8FE}
+	EndGlobalSection
+EndGlobal
