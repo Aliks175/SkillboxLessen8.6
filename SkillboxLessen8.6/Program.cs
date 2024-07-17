@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SkillboxLessen8._6
+namespace NumbersList
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             WorkToList workToList = new WorkToList();
-            workToList.ShowInfo();
+            workToList.ShowInfo("Всего чисел -");
+            Console.WriteLine("\nНажмите Enter для сортировки");
             Console.ReadLine(); Console.Clear();
             workToList.FilterList(25, 50);
-            workToList.ShowInfo();
+            workToList.ShowInfo("Всего чисел, после сортировки -");
             Console.ReadLine(); Console.Clear();
         }
 
@@ -32,10 +33,10 @@ namespace SkillboxLessen8._6
                     list.Add(random.Next(0, 101));
             }
 
-            public void ShowInfo()
+            public void ShowInfo(string text)
             {
                 int counterNumbers = 1;
-                Console.WriteLine($"Всего чисел - {_numbersCompletionRundomlist.Count}\n");
+                Console.WriteLine($"{text} {_numbersCompletionRundomlist.Count}\n");
                 foreach (int i in _numbersCompletionRundomlist)
                     Console.WriteLine($"Число # {counterNumbers++}  {i}");
             }
